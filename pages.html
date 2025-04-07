@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-96x96.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+  /*menu button onclick function*/         $(document).ready(function(){
+                $('.menu h4').click(function(){
+                    $("nav ul").toggleClass("active")
+            })
+            })
+        </script>   
+    <title> SERVICE PAGE</title>
+</head>
+<body style="background-image: url(images/imgm.jpg);">
+    <div class="conatiner">
+        <header>
+            <div class="call"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path fill="currentColor" d="M144.27 45.93a8 8 0 0 1 9.8-5.66a86.22 86.22 0 0 1 61.66 61.66a8 8 0 0 1-5.66 9.8a8.2 8.2 0 0 1-2.07.27a8 8 0 0 1-7.73-5.94a70.35 70.35 0 0 0-50.33-50.33a8 8 0 0 1-5.67-9.8m-2.33 41.8c13.79 3.68 22.65 12.54 26.33 26.33A8 8 0 0 0 176 120a8.2 8.2 0 0 0 2.07-.27a8 8 0 0 0 5.66-9.8c-5.12-19.16-18.5-32.54-37.66-37.66a8 8 0 1 0-4.13 15.46m81.94 95.35A56.26 56.26 0 0 1 168 232C88.6 232 24 167.4 24 88a56.26 56.26 0 0 1 48.92-55.88a16 16 0 0 1 16.62 9.52l21.12 47.15v.12a16 16 0 0 1-1.27 15.09c-.18.27-.37.52-.57.77L88 129.45c7.49 15.22 23.41 31 38.83 38.51l24.34-20.71a8 8 0 0 1 .75-.56a16 16 0 0 1 15.17-1.4l.13.06l47.11 21.11a16 16 0 0 1 9.55 16.62m-15.88-2h-.11l-47-21.05l-24.35 20.71a8 8 0 0 1-.74.56a16 16 0 0 1-15.75 1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16 16 0 0 1 1-15.7a6 6 0 0 1 .57-.77L96 95.15l-21-47a.6.6 0 0 1 0-.12A40.2 40.2 0 0 0 40 88a128.14 128.14 0 0 0 128 128a40.21 40.21 0 0 0 40-34.93Z"></path>
+                </svg>
+            </div>
+            <div class="contact ">
+                <p style="font-size: 15px;">For Further Inquires :<br>+01 (977) 2599 12</p>
+            </div>
+            <div class="logo ">
+                <img src="images/site-logo.png" alt="">
+            </div>
+            <div class="search "><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <rect width="30" height="30" fill="none"></rect>
+                    <path fill="currentColor" d="m21 19l-5.154-5.154a7 7 0 1 0-2 2L19 21zM5 10c0-2.757 2.243-5 5-5s5 2.243 5 5s-2.243 5-5 5s-5-2.243-5-5"></path>
+                </svg></div>
+            <div class="side"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <rect width="24" height="24" fill="none"></rect>
+                    <path fill="currentColor" d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+                </svg>
+            </div>
+
+        </header>
+        <nav>
+            <div class="header_social">
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                            <rect width="32" height="32" fill="none" />
+                            <g fill="currentColor">
+                                <path
+                                    d="M16-.034C7.159-.034-.035 7.158-.035 16S7.159 32.034 16 32.034S32.035 24.842 32.035 16S24.841-.034 16-.034m0 31C7.748 30.966 1.035 24.252 1.035 16S7.748 1.034 16 1.034S30.965 7.748 30.965 16S24.252 30.966 16 30.966" />
+                                <path
+                                    d="M19.5 7h-2.668C13.434 6.966 13 9.069 13 11.345V13h-1.5a.445.445 0 0 0-.5.5v3a.445.445 0 0 0 .5.5H13v7.5a.449.449 0 0 0 .503.5h3.055c.295.034.534-.205.44-.5L17 17h2.5a.445.445 0 0 0 .5-.5v-3a.445.445 0 0 0-.5-.5h-2.503L17 11.5c.097-.639.097-.535.69-.5h1.789c.139-.031.287-.014.391-.115c.104-.101.164-.239.129-.385v-3A.444.444 0 0 0 19.5 7m-.535 2.944l-1.254-.048c-1.553 0-1.683.843-1.683 1.706l-.004 1.896a.534.534 0 0 0 .534.535H19v1.932h-2.44a.535.535 0 0 0-.535.534L16.024 24H14v-7.5c0-.295-.201-.534-.497-.534H12v-1.932h1.503a.534.534 0 0 0 .378-.156c.1-.101.118-.237.118-.379v-2.155c0-2.242.453-3.31 2.832-3.31h2.133v1.91z" />
+                            </g>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                            <rect width="32" height="32" fill="none" />
+                            <g fill="currentColor">
+                                <path
+                                    d="M16-.034C7.159-.034-.035 7.158-.035 16S7.159 32.034 16 32.034S32.035 24.842 32.035 16S24.841-.034 16-.034m0 31C7.748 30.966 1.035 24.252 1.035 16S7.748 1.034 16 1.034S30.965 7.748 30.965 16S24.252 30.966 16 30.966" />
+                                <path
+                                    d="M24.794 11.046a3.73 3.73 0 0 0 .273-.643a.535.535 0 0 0-.781-.623a6.033 6.033 0 0 1-1.646.673a3.831 3.831 0 0 0-2.562-.987a3.82 3.82 0 0 0-3.814 3.973a8.821 8.821 0 0 1-5.735-3.178a.536.536 0 0 0-.876.07a3.813 3.813 0 0 0-.066 3.721a.628.628 0 0 0-.214.078a.571.571 0 0 0-.264.481c0 1.135.505 2.177 1.319 2.885l-.035.035a.534.534 0 0 0-.108.518a3.816 3.816 0 0 0 2.184 2.365a6.134 6.134 0 0 1-3.406.579a.545.545 0 0 0-.566.352a.536.536 0 0 0 .215.63a9.841 9.841 0 0 0 5.319 1.559c6.18 0 9.874-5.02 9.874-9.873l-.001-.164a7.122 7.122 0 0 0 1.541-1.66a.535.535 0 0 0-.651-.791m-1.745 1.755a.535.535 0 0 0-.222.461c.006.132.009.266.009.398c0 4.328-3.293 8.805-8.804 8.805a8.76 8.76 0 0 1-2.887-.488a7.073 7.073 0 0 0 3.045-1.39a.535.535 0 0 0-.32-.955a2.752 2.752 0 0 1-2.194-1.162c.253-.017.501-.059.742-.124a.534.534 0 0 0-.036-1.04a2.741 2.741 0 0 1-2.081-1.905c.266.067.539.106.812.115c.235-.001.453-.145.526-.371s-.013-.475-.212-.607a2.746 2.746 0 0 1-1.143-2.945a9.883 9.883 0 0 0 6.568 2.972c.176.001.33-.062.437-.191s.148-.3.11-.464a2.75 2.75 0 0 1 4.682-2.506a.535.535 0 0 0 .494.159c.165-.033.328-.071.489-.115a2.538 2.538 0 0 1-.226.151a.535.535 0 0 0 .338.988l.182-.023a5.605 5.605 0 0 1-.309.237" />
+                            </g>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 32 32">
+                            
+                        <g fill="currentcolor">
+                            <path d="M10 18a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10s-4.477 10-10 10"/>
+                        <path d="M12.923 6.526H7.077C5.93 6.526 5 7.446 5 8.58v2.89c0 1.135.93 2.054 2.077 2.054h5.846c1.147 0 2.077-.92 2.077-2.054V8.58c0-1.135-.93-2.054-2.077-2.054m-1.404 3.64l-2.735 1.29a.11.11 0 0 1-.157-.099v-2.66a.11.11 0 0 1 .16-.097l2.734 1.37a.11.11 0 0 1-.002.196"/></g></svg>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT</a></li>
+                    <li><a href="destination.html">DESTINATION</a></li>
+                    <li><a href="packages.html">PACKAGES</a></li>
+                    <li><a href="pages.html">PAGES</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+           
+            <div class="nav_btn">
+                <a href="booking.html">BOOK NOW</a>
+            </div>
+        </nav>
+        <div class="about">
+            <h5>SERVICES</h5>
+        </div>
+        <div class="service-gallary">
+
+            <div class="service-content1">
+
+                <div class="hotels-detail">
+                    <div class="hotels">
+                         <div class="hotelsvg ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="white" d="M5 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1h1a1 1 0 1 1 0 2v11a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2V8a1 1 0 0 1 0-2h1zm12 0v1H7V5zm1 3v11h-3.5v-2.5a2.5 2.5 0 0 0-5 0V19H6V8zm-6 8a.5.5 0 0 1 .5.5V19h-1v-2.5a.5.5 0 0 1 .5-.5m-4-3a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1m8 0a1 1 0 0 1 .993.883L17 14v1a1 1 0 0 1-1.993.117L15 15v-1a1 1 0 0 1 1-1M8 9a1 1 0 0 1 .993.883L9 10v1a1 1 0 0 1-1.993.117L7 11v-1a1 1 0 0 1 1-1m4 0a1 1 0 0 1 .993.883L13 10v1a1 1 0 0 1-1.993.117L11 11v-1a1 1 0 0 1 1-1m4 0a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1"/></g></svg>
+                         </div>
+                          <div class="hotel-content">
+                                <h2>BEST HOTELS</h2>
+                                <p>Donec temporibus consectetuer, repudiandae integer pellentesque aliquet justo at sequi, atque quasi.</p>
+                                <div class="learn-more">
+                                <a href="#">LEARN MORE</a>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="travel-detail hotels-detail">
+                <div class="hotels1 hotels">
+                    <div class="hotelsvg1 hotelsvg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 640 512"><path fill="white" d="M381 114.9L186.1 41.8c-16.7-6.2-35.2-5.3-51.1 2.7L89.1 67.4C78 73 77.2 88.5 87.6 95.2l146.9 94.5L136 240l-58.2-25.9c-8.7-3.9-18.8-3.7-27.3.6l-32.2 16.1c-9.3 4.7-11.8 16.8-5 24.7l73.1 85.3c6.1 7.1 15 11.2 24.3 11.2h137.7c5 0 9.9-1.2 14.3-3.4l272.9-136.4c46.5-23.3 82.5-63.3 100.8-112C645.9 75 627.2 48 600.2 48h-57.4c-20.2 0-40.2 4.8-58.2 14zM0 480c0 17.7 14.3 32 32 32h576c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32"/></svg>
+                    </div>
+                    <div class="hotel-content1 hotel-content">
+                        <h2>TRAVEL INSURANCE
+
+                        </h2>
+                        <p>Donec temporibus consectetuer, repudiandae integer pellentesque aliquet justo at sequi, atque quasi.
+
+                        </p>
+                        <div class="learn-more1 learn-more">
+                        <a href="#">LEARN MORE</a></div>
+                  </div>
+                </div>
+                </div>
+                <div class="accessbility-detail hotels-detail">
+                    <div class="hotels2 hotels">
+                    <div class="hotelsvg2 hotelsvg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24"><path fill="white" d="M21 11.646V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9.354A4 4 0 0 1 2 9V3a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v6a4 4 0 0 1-1 2.646M14 9a1 1 0 1 1 2 0a2 2 0 1 0 4 0V4H4v5a2 2 0 1 0 4 0a1 1 0 0 1 2 0a2 2 0 1 0 4 0"/></svg>
+                    </div>
+                    <div class="hotel-content2 hotel-content">
+                        <h2>ACCESSIBILITY
+                        </h2>
+                        <p>Donec temporibus consectetuer, repudiandae integer pellentesque aliquet justo at sequi, atque quasi.</p>
+                        <div class="learn-more2 learn-more">
+                        <a href="#">LEARN MORE</a></div>
+                  </div>
+                    </div>
+                </div>
+                
+            </div>
+        <div class="service-content2 service-content1">
+
+                <div class="online-booking-detail hotels-detail">
+                    <div class="hotels3 hotels">
+                        <div class="hotelsvg4 hotelsvg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 20 20"><g fill="white"><path d="M6.5 12a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zm0 3a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1z"/><path fill-rule="evenodd" d="M11.185 1H4.5A1.5 1.5 0 0 0 3 2.5v15A1.5 1.5 0 0 0 4.5 19h11a1.5 1.5 0 0 0 1.5-1.5V7.202a1.5 1.5 0 0 0-.395-1.014l-4.314-4.702A1.5 1.5 0 0 0 11.185 1M4 2.5a.5.5 0 0 1 .5-.5h6.685a.5.5 0 0 1 .369.162l4.314 4.702a.5.5 0 0 1 .132.338V17.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5z" clip-rule="evenodd"/><path d="M11 7h5.5a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5v-6a.5.5 0 0 1 1 0z"/></g></svg>
+                         </div>
+                         <div class="hotel-content3 hotel-content">
+                            <h2>ONLINE BOOKING
+
+                            </h2>
+                            <p>Donec temporibus consectetuer, repudiandae integer pellentesque aliquet justo at sequi, atque quasi.</p>
+                            <div class="learn-more3 learn-more">
+                            <a href="#">LEARN MORE</a></div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="best-tour-detail hotels-detail">
+                    <div class="hotels4 hotels">
+                    <div class="hotelsvg5 hotelsvg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 48 48"><defs><mask id="ipSTourBus0"><g fill="none"><path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="4" d="M9 23h30v11a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2z"/><path stroke="#fff" stroke-linejoin="round" stroke-width="4" d="M9 8a2 2 0 0 1 2-2h26a2 2 0 0 1 2 2v15H9z"/><path fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 42a3 3 0 0 1-3-3v-3h6v3a3 3 0 0 1-3 3m18 0a3 3 0 0 1-3-3v-3h6v3a3 3 0 0 1-3 3"/><path stroke="#fff" stroke-linecap="round" stroke-width="4" d="M6 12v4m36-4v4"/><circle cx="15" cy="30" r="2" fill="#000"/><circle cx="33" cy="30" r="2" fill="#000"/><path stroke="#fff" stroke-linecap="round" stroke-width="4" d="m31 6l-9 10m16-9l-5 6"/></g></mask></defs><path fill="white" d="M0 0h48v48H0z" mask="url(#ipSTourBus0)"/></svg>
+                    </div>
+                    <div class="hotel-content4 hotel-content">
+                        <h2>BEST TOUR
+
+                        </h2>
+                        <p>Donec temporibus consectetuer, repudiandae integer pellentesque aliquet justo at sequi, atque quasi.</p>
+                        <div class="learn-more4 learn-more">
+                        <a href="#">LEARN MORE</a></div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="support-detail hotels-detail">
+                    <div class="hotels5 hotels">
+                         <div class="hotelsvg6 hotelsvg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24"><path fill="white" d="M5 17c0 .55.45 1 1 1h1v-4H5zm12-3h2v4h-2z" opacity="0.3"/><path fill="white" d="M12 1a9 9 0 0 0-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h4v1h-7v2h6c1.66 0 3-1.34 3-3V10a9 9 0 0 0-9-9M7 14v4H6c-.55 0-1-.45-1-1v-3zm12 4h-2v-4h2z"/></svg>
+                        </div>
+                        <div class="hotel-content5 hotel-content">
+                            <h2>24*7 SUPPORT
+
+                            </h2>
+                            <p>Donec temporibus consectetuer, repudiandae integer pellentesque aliquet justo at sequi, atque quasi.</p>
+                            <div class="learn-more5 learn-more">
+                            <a href="#">LEARN MORE</a></div>
+                      </div>
+                     </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="action-section">
+            <div class="action-content">
+                <p style="font-size: 15px;">CALL TO ACTION<br><br>
+                </p>
+                <h1>READY FOR UNFORGATABLE TRAVEL. REMEMBER US!
+                </h1>
+                <p style="font-size: 15px;"><br>Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
+                <div class="action-btn">
+                        <div class="contact-btn">
+                    <a href="contact-us.html">CONTACT US!</a>
+                    </div>
+                    <div class="learn-btn1">
+                    <a href="about_us.html">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
